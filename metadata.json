@@ -3,6 +3,6 @@
   "description": "Show Today's Nepali Date",
   "uuid": "nepalidate@kritishdhaubanjar.gmail.com",
   "shell-version": ["3.36"],
-  "url": "",
+  "url": "https://github.com/kritish-dhaubanjar/gnome-shell-extension-nepali-date",
   "version": 1
 }
