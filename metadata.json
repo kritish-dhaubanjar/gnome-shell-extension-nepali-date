@@ -1,0 +1,8 @@
+{
+  "name": "Nepali Date",
+  "description": "Show Today's Nepali Date",
+  "uuid": "nepalidate@kritishdhaubanjar.gmail.com",
+  "shell-version": ["3.36"],
+  "url": "",
+  "version": 1
+}
