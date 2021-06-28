@@ -27,7 +27,9 @@ const Me = ExtensionUtils.getCurrentExtension();
 const NepaliDateLib = Me.imports.lib.date;
 
 class Extension {
-  constructor() {
+  constructor() {}
+
+  enable() {
     this.pannelButton = new St.Bin();
 
     const nepaliDate = NepaliDateLib.NepaliDate.getNepaliDate();
@@ -38,9 +40,7 @@ class Extension {
     });
 
     this.pannelButton.set_child(this.pannelButtonLabel);
-  }
 
-  enable() {
     Main.panel._centerBox.insert_child_at_index(this.pannelButton, 1);
   }
 
