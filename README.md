@@ -5,7 +5,10 @@ GNOME Shell Extension for displaying today's Nepali Date.
 
 ![preview](https://user-images.githubusercontent.com/25634165/123553071-00e66780-d799-11eb-8620-694008f8b501.png)
 
-## Installation
+## Installation from extensions.gnome.org
+https://extensions.gnome.org/extension/4366/nepali-date/
+
+## Manual Installation
 
 ```
 cd ~/.local/share/gnome-shell/extensions/
