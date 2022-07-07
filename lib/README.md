@@ -255,6 +255,12 @@ namespace English2NepaliDateConversion
                 case 2023:
                     return new int[15] { 2079, 17, 30, 29, 30, 30, 31, 32, 31, 32, 31, 30, 30, 30, 29 };
 
+                case 2024:
+                    return new int[15] { 2080, 16, 29, 29, 30, 30, 31, 32, 31, 32, 31, 30, 30, 30, 29 };
+
+                case 2025:
+                    return new int[15] { 2081, 17, 29, 30, 30, 30, 30, 32, 31, 32, 31, 30, 30, 30, 29 };
+
                 default:
                     throw new ArgumentOutOfRangeException(year.ToString(), "English year is out of range. Can not convert to Nepali date");
             }
